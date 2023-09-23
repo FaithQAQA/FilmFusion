@@ -1,0 +1,39 @@
+
+<div class="page-container">
+
+<router-outlet>
+<header>
+
+  <app-header></app-header>
+
+</header>
+<footer>
+  <app-footer></app-footer>
+
+
+</footer>
+
+
+</router-outlet>
+
+
+<h1></h1>
+
+    <mat-tab-group>
+      <mat-tab label="List of Movies">
+        <app-list-of-movies [externalMovieInfo1]="moviesData2"></app-list-of-movies>
+      </mat-tab>
+    
+      <mat-tab label="Movie Screens">
+        <app-movie-screens [movieShowTimingsData]="movieShowTimingsData"></app-movie-screens>
+      </mat-tab>
+    </mat-tab-group>
+
+  </div>
+
+
+
+
+
+
+    

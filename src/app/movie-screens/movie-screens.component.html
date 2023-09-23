@@ -1,0 +1,36 @@
+<div class="container">
+  <div class="screen-selection">
+    <h2>Select a Movie Screen:</h2>
+    <div class="button-group">
+      <button
+        mat-raised-button
+        color="primary"
+        *ngFor="let screen of movieScreens"
+        (click)="onMovieScreenSelect(screen)"
+      >
+        Room {{ screen }}
+      </button>
+    </div>
+  </div>
+
+  <div class="movie-timings" *ngIf="selectedMovieScreen !== null">
+    <h2>
+      List of Movies and Show Timings for Movie Screen
+      {{ selectedMovieScreen }}:
+    </h2>
+    <table class="movie-table" mat-table [dataSource]="selectedMovieScreenData">
+      <ng-container matColumnDef="movie">
+        <th mat-header-cell *matHeaderCellDef>Movie</th>
+        <td mat-cell *matCellDef="let movieShowTiming">{{ movieShowTiming.movie }}</td>
+      </ng-container>
+
+      <ng-container matColumnDef="showTiming">
+        <th mat-header-cell *matHeaderCellDef>Show Timing</th>
+        <td mat-cell *matCellDef="let movieShowTiming">{{ movieShowTiming.showTiming }}</td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="['movie', 'showTiming']"></tr>
+      <tr mat-row *matRowDef="let row; columns: ['movie', 'showTiming']"></tr>
+    </table>
+  </div>
+</div>

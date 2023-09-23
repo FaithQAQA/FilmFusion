@@ -1,0 +1,57 @@
+{
+    
+    "ProgramData": {
+        "programName": "",
+        "programCode": "Jalani Maynard",
+        "schedule": "Canada",
+        "credential": ""
+    },
+
+    "MovieName": {
+      "theatreName": "Cinema Paradise",
+      "location": "123 Main Street",
+      "contactNumber": "123-456-7890"
+    },
+
+  "FootInfo": {
+    "CollegeName": "Sheridan",
+    "Email": "maynajal@sheridancollege.ca",
+    "CampusName": "Davis"
+},
+
+"MoviesShowing": [
+  {"name": "Psycho Pass", "genre": "Action", "runningTime": "2h 15m", "releaseDate": "2023-07-01", "ratings": "PG-13", "ageRestriction": "13+" },
+  {"name": "Your Lie in April", "genre": "Comedy", "runningTime": "1h 50m", "releaseDate": "2023-07-15", "ratings": "PG", "ageRestriction": "7+" },
+  {"name": "Highschool DXD", "genre": "Drama", "runningTime": "2h 5m", "releaseDate": "2023-08-03", "ratings": "R", "ageRestriction": "17+" },
+  {"name": "Class Room of the elite", "genre": " Sci-Fi", "runningTime": "2h 30m", "releaseDate": "2023-08-22", "ratings": "PG-13", "ageRestriction": "13+" },
+  {"name": "My boring Girlfriend", "genre": "Thriller", "runningTime": "2h 10m", "releaseDate": "2023-09-10", "ratings": "R", "ageRestriction": "17+" },
+  {"name": "Blue Lock", "genre": "Animation", "runningTime": "1h 45m", "releaseDate": "2023-09-30", "ratings": "G", "ageRestriction": "All Ages" },
+  {"name": "Attack on Titan", "genre": "Action", "runningTime": "2h 20m", "releaseDate": "2023-10-20", "ratings": "PG-13", "ageRestriction": "13+" },
+  {"name": "Spirited Away", "genre": "Fantasy", "runningTime": "2h 5m", "releaseDate": "2023-11-05", "ratings": "PG", "ageRestriction": "7+" }
+],
+
+
+
+"MovieShowTimingsData": {
+  "1": [
+    { "movie": "Psycho Pass", "showTiming": "10:00 AM" },
+    { "movie": "Your Lie in April", "showTiming": "1:00 PM" }
+  ],
+  "2": [
+    { "movie": "Highschool DXD", "showTiming": "11:00 AM" },
+    { "movie": "Class Room of the elite", "showTiming": "3:00 PM" }
+  ],
+  "3": [
+    { "movie": "My boring Girlfriend", "showTiming": "4:00 PM" },
+    { "movie": "Blue Lock", "showTiming": "7:00 PM" }
+  ],
+  "4": [
+    { "movie": "Attack on Titan", "showTiming": "8:00 PM" },
+    { "movie": "Spirited Away", "showTiming": "10:00 PM" }
+  ]
+}
+
+  
+  }
+
+

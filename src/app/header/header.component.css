@@ -1,0 +1,69 @@
+/* Reset default margin and padding */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a background color to the header */
+.header-section {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Style the header content with flexbox for layout */
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style program details */
+.program-details {
+  flex: 1;
+}
+
+/* Style program name */
+.program-details h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style program info */
+.program-info {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Style theatre details */
+.theatre-details {
+  flex: 1;
+  text-align: right;
+}
+
+/* Style theatre name */
+.theatre-details h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style theatre info */
+.theatre-info {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .program-details,
+  .theatre-details {
+    margin-bottom: 20px;
+  }
+}
